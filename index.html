@@ -1,0 +1,360 @@
+<!--INDICA LA VERSION 5 DE HTML-->
+<!DOCTYPE html>
+<!--INDICA EL INICIO DE HTML Y EN QUE IDIOMA ESTARA TU PAGINA WEB-->
+<html lang="es">
+    <!--INDICA LA CABEZA DE LA PAGINA (NO VISIBLE) IRAN PARAMETROS Y SENTENCIAS QUE TOMARA LA PAGINA WEB-->
+    <head>
+        <!--INDICA QUE SE USARA CARACTERES ESPECIALES DE ESPAÑOL-->
+        <meta charset="UTF-8">
+        <!--INDICA EL TEXTO PREVIO QUE MOSTRARA EN EL NAVEGADOR ANTES DE ENTRAR A LA PAGINA-->
+        <meta name = "descripcion" content = "Descripcion de la pagina, entra al link para verlo">
+        <!--INDICA A ALGUNOS ALGORITMOS O ROBOTS DE GOOGLE HAGAN MAS VISIBLE Y SUGIERA NUESTRA WEB-->
+        <meta name = "robots" content = "index, follow">  
+        <!--INDICA LA ADAPTACION DE TAMAÑO A LA PANTALLA DE LA PC O MOVIL U OTRO-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--INDICA EL TITULO DE LA PESTAÑA DE NUESTRA WEB-->
+        <title>La web mas PRO</title>
+        <!--INDICA CUAL SERA EL ICONO QUE SE MOSTRARA EN LA PESTAÑA DEL NAVEGADOR-->
+        <link rel="icon" href="iconos/monito.png">
+        <!--INDICA DE DONDE SE INVOCA EL CODIGO JS O TAMBIEN SE ESCRIBE DENTRO DE LA ETIQUETA-->
+        <script src = "js/codigo.js"> alert("Código de JS") </script> 
+        <!--INDICA DE DONDE SE INVOCA EL CODIGO CSS Y QUE JALE SEGUN LA DIRECCION-->
+        <link rel="stylesheet" href="css/styles.css">
+        <!--INDICA LA SECCION CSS PARA ESTILOS PERO NO ES BUENA PRACTICA HACERLO ACA MISMO-->
+        <style>
+            body{
+                background-color: rgb(12, 124, 124);
+            }
+        </style>  
+    </head>
+    <!--INDICA EL CUERPO DE LA PAGINA (VISIBLE) AQUI VA TODA LA INFORMACION QUE EL USUARIO VE EN LA PAGINA WEB-->
+    <body>
+    </body>
+<!--INDICA EL CIERRE DE TODO EL DOCUMENTO HTML-->
+</html>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+<!--PARA LA CABECERA PRIMERA SECCION PRIMERO EL HEADER-->
+<header>
+    <!--PARA LA NAVEGACION DE CABECERA-->
+    <nav>
+        Inicio
+        Productos
+        Iniciar Cesion
+    </nav>
+</header>
+
+<!--PARA PONER UNA SECCION QUE NO ES CONTENIDO PRINCIPAL-->
+<aside>No olvides Registrarte :D (esto no va en header ni main SI NO AFUERA es como un pedacito de algo extra)</aside>
+
+<!--PARA EL CONTENIDO PRINCIPAL QUE ES EL MAIN-->
+<main>
+    <!--PARA TITULOS (ELEMENTOS DE BLOQUE, QUE OCUPARAN TODO UN BLOQUE HORIZONTAL)-->
+    <h1>Primer Nivel</h1>
+    <h2>Segundo Nivel</h2>
+    <!--PARA AGRUPAR TITULOS-->
+    <hgroup>
+        <h3>Tercer Nivel</h3>
+        <h4>Cuarto Nivel</h4>
+    </hgroup>
+    <h5>Quinto Nivel</h5>
+    <h6>Sexto Nivel (ultimo)</h6>
+
+    <!--PARA PONER TEXTO EN LA MISMA LINEA (ELEMENTOS DE LINEA) LO CONTRARIO DE ELEMENTOS DE BLOQUE-->
+    <span>Pone los</span>
+    <span>textos en una linea</span>
+
+    <!--PARA PONER TEXTO IGUALITO COMO LO PONEMOS EN EL EDITOR-->
+    <pre>
+        Me gusta cuando callas
+        porque estas como
+        ausente :D
+    </pre>
+
+    <!--PARA CODIGO ES UNA SECCION "DECENTE" LO MOSTRARA CON UNA LEVE VARIACION-->
+    <code>alert("Hola Mundo")</code>
+
+    <!--PARA CITAR UN TEXTO DE ALGUN LIBRO POR EJEMPLO O PARA RESALTAR UN POCO ALGUN TEXTO CORTO EN BLOCKE-->
+    <blockquote>
+        Un hombre no nace con valor, un hombre construye su valor
+    </blockquote>
+
+    <!--PARA CITAR UN TEXTO LO MISMO QUE EL BLOCKQUOTE PERO ESTA EN UNA LINEA-->
+    <cite>Un hombre no nace con valor, un hombre construye su valor</cite>
+
+    <!--PARA PARRAFO EL TITLE ES OPCIONAL, ES EL TEXTO Q SE MOSTRARA AL PASAR EL CURSOR-->
+    <p title="Un parrafo bien chido, leelo">Esto es un Parrafo</p>
+
+    <!--PARA NEGRITA-->
+    <b>negrita</b>
+
+    <!--PARA SUBRRAYADO-->
+    <u>subrayado</u>
+
+    <!--PARA CURSIVA-->
+    <i>cursiva</i></p>
+
+    <!--PARA SUBINDICE-->
+    H<sub>2</sub>O
+    
+    <!--PARA SUPERINDICE-->
+    3<sup>2</sup>
+
+    <!--PARA RESALTAR UN PEDAZO DE TEXTO (POR DEFECTO NEGRITA)-->
+    <strong>Texto en negrita</strong>
+
+    <!--PARA ENMARCAR COMO RESALTADOR UN TEXTO-->
+    <mark>Texto enmarcado</mark>
+
+    <!--PARA TACHAR TEXTO COMO REALIZADO-->
+    <del>Texto tachado</del>
+
+    <!--PARA SUBRRAYAR UN TEXTO-->
+    <ins>Texto subrrayado</ins>
+
+    <!--PARA RESALTAR UN PEDAZO DE TEXTO Y PONER ENFASIS (POR DEFECTO EN CURSIVA)-->
+    <em>Cien Años de Soledad</em>
+
+    <!--PARA PONER MENOS IMPORTANCIA A UN PEDAZO DE TEXTO (POR DEFECTO MAS PEQUEÑO)-->
+    <small>Letra chiquita donde te intentan estafar los bancos por ejemplo</small>
+
+    <!--PARA HORA Y DESPUES PODERLO MANIPULAR DE PENDE LA CITUACION-->
+    <time>5:30</time>
+
+    <!--PARA OTRO TIPO DE CONTENIDO UN CAMBIO DE CONTENIDO REFERENTE A TEMA (HORIZONTAL RULE (LINEA) POR DEFECTO)-->
+    <hr>
+
+    <!--PARA SALTO DE LINEA SIMPLEMENTE-->
+    <br>
+
+    <!--PARA CORTAR UNA PALABRA LARGO QUE SE CORTE EN ESE LUGAR QUE SE PONE-->
+    asdgasdgfadfadaeadadgadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<wbr>asfddsfasdfdsafsdsdfsadf
+
+    <!--PARA DIVISIONES AL CONTENIDO ARBITRARIAMENTE (DE BLOCKE), EL STYLE NO ES BUENA PRACTICA PERO SE PUEDE PONER CSS AHI-->
+    <div style="">Podemos usarlo para agrupar varias etiquetas cualquiera (para ponerle estilos por ejemplo)</div>
+
+    <!--PARA ARTICULO-->
+    <article>Se pone cuando sea una seccion que no depende de otra seccion</article>
+
+    <!--PARA SECCIONES-->
+    <section>Se pone cuando vayamos a hacer divisiones internas del mismo contenido (articulo padre)</section> 
+
+    <!--PARA LISTAS ORDENADAS-->
+    <ol>
+        <!--PARA COLUMNA ITEMS DE UNA LISTA (li)-->
+        <li>Primero</li>
+        <li>Segundo</li>
+    </ol>
+
+    <!--PARA LISTAS NO ORDENADAS-->
+    <ul>
+        <!--PARA COLUMNA ITEMS DE UNA LISTA (li)-->
+        <li>Lunes</li>
+        <li>Martes</li>
+        <li>Miercoles</li>
+    </ul>
+
+    <!--PARA LISTAS ANIDADAS-->
+    <ul>
+        <li>Lunes
+            <ol>
+                <li>Estudiar</li>
+                <li>Hacer ejercicio</li>
+            </ol>
+        </li>
+    </ul>
+
+    <!--PARA LISTAS DE DEFINICIONES-->
+    <dl>
+        <dt>Titulo</dt>
+        <dd>Definicion Descripcion</dd>
+        <dt>HTML</dt>
+        <dd>Este espacio hace la definicion conceptual al dt</dd>
+    </dl>
+
+    <!--PARA FIGURA QUE ROMPE EL FLUJO DE ALGUN CONTENIDO PRINCIPAL CON IGUAL RELACION-->
+    <figure>
+        <img src="img/foto.jpg" alt="Descripcion de foto" width="500">
+        <!--PARA DESCRIBIR UNA FIGURA BREVE EXPLICACION DE FIGURA-->
+        <figcaption>
+            <p>Foto de algun lugar en 1998</p>
+        </figcaption>
+    </figure>
+
+    <!--PARA IMAGEN SU ESTRUCTURA-->
+    <picture>
+        <!--PARA IMAGENES SEGUN EL TAMAÑO CUAL IMAGEN MOSTRAR CONDICIONAR CON MINIMO Y MAXIMO-->
+        <source src="img/moto.jpg" media="(min-width: 800px)">
+        <source src="img/pantalla.jpg" media="(min-width: 400px)">
+        <img src="img/portafolio.svg">
+    </picture>
+
+    <!--PARA IMAGEN EL ALT SIRVE PARA DESCRIPCION INTERNA Y TEXTO QUE SE MOSTRARA SI NO CARGA LA IMAGENTO-->
+    <img src="img/portafolio.svg" alt="Si no carga la img saldra esto" title="texto que se mostrara al poner el cursor en cima de la img">
+    <img src="https://e.rpp-noticias.io/normal/2022/02/20/084208_1220264.jpg" alt="Descripcion para mejorar algoritmos de busqueda y otros">
+    <img src="img/motogrande.png" alt="Para mejorar mejor de una ves el tamaño con width" width="300">
+    <!--PARA IMAGEN SALDRA UNA U OTRA SEGUN AL TAMAÑO QUE SE CAMBIE-->
+    <img srcset="img/pantalla.jpg 2x, img/moto.png 4x" src="img/portfolio.svg">
+
+    <!--PARA VIDEO, CONTROLES, ANCHO, MAS SU IMAGEN DE PORTADA-->
+    <video src="video/prueba.mp4" controls width="500" poster="img/moto.jpg"></video>
+    <!--PARA VIDEO, AUTOPLAY, EMPIECE MUTEADO Y #=4,8 PARA INDICAR EL SEGUNDO DE INICIO Y FINAL-->
+    <video src="video/prueba.mp4#T=4, 8" controls autoplay muted></video>
+
+    <!--PARA AUDIO, CONTROLES, AUTOPLAY Y EMPIECE MUTEADO-->
+    <audio src="audio/musica.mp3" controls autoplay muted></audio>
+
+    <!--PARA PONER CONTENIDO EXTERNO O INTERNO Y MOSTRAR (LO QUE SEA)-->
+    <iframe src="direccion de donde sea"></iframe>
+    <!--PARA PONER CONTENIDO EN REALIDA NUNCA ESCRIBIREMOS ESTO, LO QUE HAREMOS SERA COPIAR DE ALGUNA PAGINA POR EJEMPLO DE YOUTUBE,
+    O BUSCAR EL CODIGO DE UNA PUBLICACION DE CUALQUIER PLATAFORMA PARA MOSTRAR LO Q SEA (DE IG POR EJEMPLO)-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mgp_9S15VbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/B7bP86RgvqU/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/B7bP86RgvqU/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Ver esta publicación en Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/B7bP86RgvqU/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Una publicación compartida por Andrade Ángel (@elandrade_)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+
+    <!--PARA LINK O DIRECCION (ANCHOR)-->
+    <a href="https://www.youtube.com">Ir a Youtube</a>
+    <a href="https://www.youtube.com" target="_blank">Ir a youtube en otra pestaña</a>
+    <a href="goku.jpg" download>Descargar imagen (archivo tiene que estar de forma local)(modo servidor)</a>
+    <a href="https://www.youtube.com" rel="nofollow">No transmite SEO</a>
+    <a href="https://www.youtube.com" rel="noreference">No indica al destino el origen del link</a>
+    <a href="https://www.youtube.com" rel="noopener">Evita la incrustacion de codigo malicioso al abrir links</a>
+    <a href="../img/goku.jpg">Es para bajar de carpeta y entrar a otra (..)</a>
+    <a href="/img/personajes/goku.jpg">Llama la imagen sin importar niveles de carpeta porq parte de / (home)</a>
+    <!--PARA HACER REFERENCIA A ALGUNA PARTE DE LA MISMA PAGINA WEB CON UN LINK Y CON IDs-->
+    <a href="#capitulo1">Capitulo 1</a>
+    <a href="#capitulo2">Capitulo 2</a>
+    <p> <h1 id="capitulo1">Capitulo 1</h1> </p>
+    <p> <h1 id="capitulo2">Capitulo 2</h1> </p>
+    <!--PARA LINK DE CORREO AUTOMATICOS-->
+    <a href="mailto:andradefoldine.10@gmail.com?subject=Nombre de Asunto&body=Enviado desde la web">Enviar Email</a>
+    <!--PARA PONER LINK A IMAGEN-->
+    <a href="https://www.youtube.com">
+        <img src="img/goku.jpg" alt="Imagen de goku" title="Goku ultra instinto">
+    </a>    
+
+    <!--PARA TABLA-->
+    <table border="2">
+        <!--PARA AÑADIR TITULO GENERAL DE TODA LA TABLA-->
+        <caption>Horarios de Clases</caption>
+        <!--PARA CABECERA DE UNA TABLA-->
+        <thead>
+            <!--PARA PONER FILA DENTRO DE UNA TABLA (TABLE ROW)-->
+            <tr>
+                <!--PARA PONER COLUMNAS DE CABECERAS EN LA TABLA (COMO COLUMNAS PERO NO LO ES)(TABLE HEAD)-->
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jeves</th>
+            </tr>
+        </thead>
+        <!--PARA PONER CUERPO DE UNA TABLA-->
+        <tbody>
+            <!--PARA PONER OTRA FILA DENTRO DE LA MISMA TABLA (TABLE ROW)-->
+            <tr>
+                <!--PARA PONER COLUMNAS, CELDAS, REGISTROS (TABLE DATA)-->
+                <td>Materia 1</td>
+                <td>Materia 2</td>
+                <td>Materia 3</td>
+                <td>Materia 4</td>
+            </tr>
+        </tbody>
+        <!--PARA PONER PARTE FINAL DE UNA TABLA (NO OBLIGATORIO)-->
+        <tfoot>
+            <!--PARA PONER OTRA FILA DENTRO DE LA MISMA TABLA (TABLE ROW)-->
+            <tr>
+                <!--PARA PONER COLUMNAS, CELDAS, REGISTROS (TABLE DATA)-->
+                <!--PARA AGRUPAR COLUMNAS-->
+                <td colspan="2">TOTAL</td>
+                <!--PARA AGRUPAR FILAS-->
+                <td rowspan="2">4</td>
+            </tr>
+        </tfoot>
+        <!--PARA SELECCIONAR UNA COLUMNA ENTERA-->
+        <colgroup>
+            <!--PARA HACER REFERENCIA A CADA UNA DE LAS COLUMNAS RESPECTIVAMENTE-->
+            <col>
+            <col style="background-color: red;">
+            <col>
+            <col>
+        </colgroup>
+    </table>
+
+    <!--PARA FORMULARIO y AUTOCOMPLETE PARA QUE SE AUTO COMPLETE CON VALORES ANTERIORES-->
+    <form action="LugarDeDestinoAlEnviarConButton.php" autocomplete="on">
+        <!--PARA AGRUPAR SECCIONES DE FORMULARIO POR DEFECTO UN MARCO-->
+        <fieldset>
+            <!--PARA PONER TITULO A ESA AGRUPACION y DE FIELDSET-->
+            <legend>Mis Datos Personales</legend>
+            <!--PARA ENTRADA DE DATOS INPUT PLEACEHOLDER ES TEXTO DE FONDO, NAME PARA BACKEND, REQUIRED ES OBLIGATORIO-->
+            <input type="text" placeholder="Tipo Texto" name="nameParaIdentificarlosYManipularEsosDatosIngresados" required>
+            <!--PARA PONER VALOR POR DEFECTO EN ALGUN CAMPO USAMOS EL VALUE, EL STEP ES PERMITIR DECIMALES-->
+            <input type="number" placeholder="Tipo Numero" name="phonenumber" value="10" required step="any">
+            <!--PARA SOLO LECTURA NO PERMITE ALTERAR EL CAMPO YA DADO CON VALUE Y DESABILITAR EL CAMPO (NO ENVIA EL VALOR AL SERVIDOR)-->
+            <input type="email" placeholder="Tipo Correo" name="email" value="holi@gmail.com" required readonly disabled>
+            <input type="time" name="nameParaIdentificarlosYManipularEsosDatosIngresadosOMarcados" required>
+            <input type="date" name="fecha" required>
+            <input type="week" name="diaDeSemana">
+            <input type="month" name="mes">
+            <input type="datetime-local" name="HorayFechaActual">
+            <!--PARA SELECCION RADIO SOLO SE PUEDE SELECCIONAR UNO SOLO SI TIENEN EL MISMO NAME CHECKED ES POR DEFECTO-->
+            <input type="radio" name="seleccionGenero" value="genero">
+            <input type="radio" name="seleccionGenero" value="genero" checked>
+            <!--PARA SELECCION MULTIPLE SE PUEDE DEJAR SELECCIONADO UNA OPCION POR DEFECTO CON CHECKED-->
+            <input type="checkbox" name="opciones" value="opciones" checked>
+            <input type="tel" name="tecladoNumerico">
+            <input type="color" name="ingresaColor">
+            <input type="password" name="contraseña">
+            <input type="range" name="deslizador" min="0" max="10" step="2" value="0">
+            <!--PARA ENVIAR DATO INVISIBLE PARA EL USUARIO (TRANSPARENTE) PERO SI ENVIA EL VALOR AL SERVIDOR-->
+            <input type="hidden" id="nombre" name="nombre" value="Angelinio">
+
+            <!--PARA LISTA DE OPCIONES COMBINADO CON FILTRO-->
+            <input type="list" list="listaPaises">
+            <!--PARA LISTA DE OPCIONES-->
+            <datalist id="listaPaises">
+                <option value="Bolivia"></option>
+                <option value="Colombia"></option>
+                <option value="Mexico"></option>
+                <option value="Venezuela"></option>
+            </datalist>
+        </fieldset>
+
+        <!--PARA LISTA DE OPCIONES O TEXTBOX-->
+        <select name="country" id="">
+            <!--PARA AGRUPAR DENTRO DE LA LISTA DE OPCIONES-->
+            <optgroup label="Sudamerica">
+                <!--PARA PONER OPCIONES DE LA LISTA-->
+                <option value="bo">Bolivia</option>
+                <!--PARA PONER OPCIONES DE LA LISTA VALOR POR DEFECTO-->
+                <option value="co" selected>Colombia</option>
+                </optgroup>
+            <!--PARA AGRUPAR OTRO DENTRO DE LA LISTA DE OPCIONES-->
+            <optgroup label= "Norteamerica">
+                <option value="mx">Mexico</option>
+            </optgroup>
+        </select>
+
+        <!--PARA TEXTO EN LOS INPUTS ALTERNATIVA DEL PLACEHOLDER-->
+        <label for="seleccion">Seleccion 1</label>
+        <!--PARA ENLAZAR INPUT USAMOS ID CONECTANDO CON EL FOR DEL LABEL-->
+        <input type="radio" name="mascota" id="seleccion">
+        <!--PARA ENLAZAR LABEL OTRA MANERA DE ENLAZAR CON INPUT SERIA-->
+        <label>Ingresa tu nombre
+            <input type="text" name="username">
+        </label>
+
+        <!--PARA TEXTO GRANDE EN UN INPUT MAS GRANDE O A MEDIDAS-->
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Sugerencias"></textarea>
+
+        <!--PARA BOTON GENERICO SE USA PARA ENVIAR LOS DATOS DENTRO DEL FORM-->
+        <button> Fuego 🔥</button>
+        <!--PARA BOTON DE ENVIAR DATOS DEL FORM IGUAL QUE EL BUTTON-->
+        <input type="submit" value="Ingresar">
+    </form>
+</main>
+
+<!--PARA LA PARTE FINAL DE LA PAGINA EL FOOTER-->
+<footer>
+
+</footer>
